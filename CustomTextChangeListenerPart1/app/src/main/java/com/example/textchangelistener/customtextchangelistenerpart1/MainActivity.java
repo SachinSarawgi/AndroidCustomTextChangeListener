@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView);
 
         editText.addTextChangedListener(new CustomTextWatcher(editText, textView));
+
     }
 }
